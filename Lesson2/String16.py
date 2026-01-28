@@ -1,0 +1,5 @@
+sentence = input("Enter a string: ")
+word = input("Enter a character: ")
+new_word = sentence.split(word)
+result = "".join(new_word)
+print(result)
